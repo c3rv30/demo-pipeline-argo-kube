@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (_req, res) => {
-  res.json({ message: "Hello from demo-pipeline-argo-kube!", status: "running" });
+  res.json({ message: "Hello from demo-pipeline-argo-kube madafakaaaaassssss!", status: "running" });
 });
 
 app.get("/health", (_req, res) => {

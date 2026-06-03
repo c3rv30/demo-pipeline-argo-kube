@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     # IMPORTANT: Replace with your actual Git repo URL after pushing
-    repoURL: https://github.com/<YOUR_GITHUB_USER>/demo-pipeline-argo-kube.git
+    repoURL: https://github.com/c3rv30/demo-pipeline-argo-kube.git
     targetRevision: main
     path: k8s
   destination:
