@@ -1,0 +1,19 @@
+{
+  "name": "demo-pipeline-argo-kube",
+  "version": "1.0.0",
+  "description": "Demo app for Argo CD pipeline on local Kubernetes",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
